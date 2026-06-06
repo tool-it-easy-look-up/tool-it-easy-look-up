@@ -1,16 +1,17 @@
-## Hi there 👋
+Tool-It Easy Look-up
 
-<!--
-**tool-it-easy-look-up/tool-it-easy-look-up** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Tool-It is a sidebar extension that helps you find information without ever leaving your current tab. It can provide definitions, measurement conversions, locations of places on maps, note-taking features, and contextual searches.
 
-Here are some ideas to get you started:
+Install for free:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. Download this repository: Click the green "Code" button above and select "Download ZIP".
+
+2. Extract the files: Unzip the folder to a location on your computer.
+
+3. Open Chrome Extensions: Navigate to chrome://extensions/ in your browser.
+
+4. Enable Developer Mode: Toggle the "Developer mode" switch in the top-right corner.
+
+5. Load the extension: Click the "Load unpacked" button in the top-left corner and select the folder you just extracted.
+
+Tool-It is ready to use!
