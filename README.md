@@ -4,7 +4,7 @@ Tool-It is a sidebar extension that helps you find information without ever leav
 
 **Install for *free*:**
 
-1. Download this repository: Click the green "Code" button above and select "Download ZIP".
+1. Download the zip: Find the file named "tool-it-easy-look-up.zip" and download it.
 
 2. Extract the files: Unzip the folder to a location on your computer.
 
