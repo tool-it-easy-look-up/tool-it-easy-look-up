@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tool-It Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 14px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #F8FAFC;
+      color: #0F172A;
+      box-sizing: border-box;
+    }
+
+    .target-box {
+      background: #FFFFFF;
+      border: 1px solid #E2E8F0;
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 14px;
+      color: #334155;
+      font-style: italic;
+      margin-bottom: 14px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+    }
+
+    .tool-card {
+      background: #FFFFFF;
+      border: 1px solid #E2E8F0;
+      border-radius: 10px;
+      padding: 14px;
+      margin-bottom: 12px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+    }
+
+    .card-title {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 700;
+      color: #4F46E5;
+      margin-bottom: 6px;
+    }
+
+    .card-body {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #1E293B;
+    }
+
+    .note-input {
+      width: 100%;
+      height: 100px;
+      box-sizing: border-box;
+      border: 1px solid #CBD5E1;
+      border-radius: 6px;
+      padding: 8px;
+      font-family: inherit;
+      font-size: 13px;
+      resize: vertical;
+      background: #F8FAFC;
+    }
+
+    #research-btn {
+      width: 100%;
+      box-sizing: border-box;
+      background: #4F46E5;
+      color: white;
+      border: none;
+      padding: 11px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      margin-top: 6px;
+    }
+    #research-btn:hover { background: #4338CA; }
+    
+    .clear-link {
+      font-size: 11px;
+      color: #94A3B8;
+      cursor: pointer;
+      float: right;
+    }
+    .clear-link:hover { color: #64748B; }
+  </style>
+</head>
+<body>
+
+  <div class="target-box" id="user-highlight">
+    Highlight text to analyze...
+  </div>
+
+  <div id="card-define" class="tool-card">
+    <div class="card-title">Definition Summary</div>
+    <div class="card-body" id="view-define">Processing...</div>
+  </div>
+
+  <div id="card-convert" class="tool-card">
+    <div class="card-title">Measurement Converter</div>
+    <div class="card-body" id="view-convert">Processing...</div>
+  </div>
+
+  <div id="card-map" class="tool-card">
+    <div class="card-title">Location</div>
+    <div class="card-body" id="view-map">Processing...</div>
+  </div>
+
+  <div id="card-note" class="tool-card">
+    <div class="card-title">
+      Continuous Scratchpad
+      <span class="clear-link" id="clear-notes">Clear All</span>
+    </div>
+    <div class="card-body">
+      <textarea class="note-input" id="view-note" placeholder="Clipped notes compile here..."></textarea>
+    <button id="btn-append">Append Selection</button>
+  <p id="cooldown-timer" style="font-size: 0.8em; color: gray;"></p>
+    </div>
+  </div>
+
+  <button id="research-btn">Contextual Search</button>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>

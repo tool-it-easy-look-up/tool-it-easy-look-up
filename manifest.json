@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Tool-It Easy Look-up",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "sidePanel",
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_title": "Open Tool-It"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}
