@@ -1,8 +1,8 @@
-** Tool-It Easy Look-up **
+**Tool-It Easy Look-up**
 
 Tool-It is a sidebar extension that helps you find information without ever leaving your current tab. It can provide definitions, measurement conversions, locations of places on maps, note-taking features, and contextual searches.
 
-** Install for free: **
+**Install for *free*:**
 
 1. Download this repository: Click the green "Code" button above and select "Download ZIP".
 
@@ -14,4 +14,4 @@ Tool-It is a sidebar extension that helps you find information without ever leav
 
 5. Load the extension: Click the "Load unpacked" button in the top-left corner and select the folder you just extracted.
 
-Tool-It is ready to use!
+**Tool-It is ready to use!**
